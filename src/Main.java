@@ -68,8 +68,7 @@ public class Main {
             if (index0 % 2 == 0) {
                 System.out.println(index0);
                 break;
-            } else if ( index0 % 2 >= 0 )
-            index0 = index0 + 1;
+            } else if (index0 % 2 >= 0) index0 = index0 + 1;
             System.out.println(index0);
             break;
         }
@@ -77,8 +76,7 @@ public class Main {
             if (index1 % 2 == 0) {
                 System.out.println(index1);
                 break;
-            }  else if ( index1 % 2 >= 0 )
-            index0 = index0 + 1;
+            } else if (index1 % 2 >= 0) index0 = index0 + 1;
             System.out.println(index1);
             break;
         }
@@ -88,5 +86,7 @@ public class Main {
 
 
 
-        }
+
+
     }
+}
