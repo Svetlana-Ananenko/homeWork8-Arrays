@@ -30,7 +30,7 @@ public class Main {
             System.out.print(numberOfFloorsInTheHouse[index] + " Этаж \n");
         }
 
-        System.out.println("\n_____Задача №2_____\n");
+        System.out.println("\n_____Задача №2____\n");
         System.out.println(Arrays.toString(numberOfVacationDaysInHalfAEear));
         System.out.println(Arrays.toString(averageTemperatureInTheSeasonOfTheYear));
         System.out.println(Arrays.toString(numberOfFloorsInTheHouse));
