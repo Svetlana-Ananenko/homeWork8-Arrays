@@ -60,7 +60,7 @@ public class Main {
 
         System.out.println("\n\n_____Задача №4_____\n");
 
-
+        // оТРАБОТКА ЧЕТВЕРТОЙ ЗАДАЧИ НА ВАРИАНТЕ 1 ИЗ 1 ЗАДАЧИ
         int index0 = numberOfVacationDaysInHalfAEear[0];
         int index1 = numberOfVacationDaysInHalfAEear[1];
 
@@ -82,9 +82,19 @@ public class Main {
         }
 
 
+        System.out.println("\n______________________\n");
+
+        // оТРАБОТКА ЧЕТВЕРТОЙ ЗАДАЧИ НА ВАРИАНТЕ 3 ИЗ 1 ЗАДАЧИ
+        for (int i = numberOfFloorsInTheHouse.length-1; i >= 0; i--) {
+
+                    if (numberOfFloorsInTheHouse[i] % 2 == 0) {
+                        System.out.println(numberOfFloorsInTheHouse[i]);
+                    } else if (numberOfFloorsInTheHouse[i] % 2 > 0) {
+                        System.out.println(numberOfFloorsInTheHouse[i+1] );
+                    }
 
 
-
+        }
 
 
 
