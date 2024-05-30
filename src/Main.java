@@ -60,41 +60,31 @@ public class Main {
 
         System.out.println("\n\n_____Задача №4_____\n");
 
-        // оТРАБОТКА ЧЕТВЕРТОЙ ЗАДАЧИ НА ВАРИАНТЕ 1 ИЗ 1 ЗАДАЧИ
-        int index0 = numberOfVacationDaysInHalfAEear[0];
-        int index1 = numberOfVacationDaysInHalfAEear[1];
 
-        for (; ; ) {
-            if (index0 % 2 == 0) {
-                System.out.println(index0);
-                break;
-            } else if (index0 % 2 >= 0) index0 = index0 + 1;
-            System.out.println(index0);
-            break;
-        }
-        for (; ; ) {
-            if (index1 % 2 == 0) {
-                System.out.println(index1);
-                break;
-            } else if (index1 % 2 >= 0) index0 = index0 + 1;
-            System.out.println(index1);
-            break;
-        }
+        // оТРАБОТКА ЧЕТВЕРТОЙ ЗАДАЧИ НА ВАРИАНТЕ 1 ИЗ 1 ЗАДАЧИ
+                for ( int i = 0; i < numberOfVacationDaysInHalfAEear.length; i++) {
+                if (numberOfVacationDaysInHalfAEear[i] % 2 != 0) {
+                    System.out.println(numberOfVacationDaysInHalfAEear[i] + 1);
+                } else if (numberOfVacationDaysInHalfAEear[i] % 2 == 0)  {
+                    System.out.println(numberOfVacationDaysInHalfAEear[i]);
+                }
+
+            }
+
 
 
         System.out.println("\n______________________\n");
 
         // оТРАБОТКА ЧЕТВЕРТОЙ ЗАДАЧИ НА ВАРИАНТЕ 3 ИЗ 1 ЗАДАЧИ
-        for (int i = numberOfFloorsInTheHouse.length-1; i >= 0; i--) {
-
-                    if (numberOfFloorsInTheHouse[i] % 2 == 0) {
-                        System.out.println(numberOfFloorsInTheHouse[i]);
-                    } else if (numberOfFloorsInTheHouse[i] % 2 > 0) {
-                        System.out.println(numberOfFloorsInTheHouse[i+1] );
-                    }
-
+        for ( int i = 0; i < numberOfFloorsInTheHouse.length; i++) {
+            if (numberOfFloorsInTheHouse[i] % 2 != 0) {
+                System.out.println(numberOfFloorsInTheHouse[i] + 1);
+            } else if (numberOfFloorsInTheHouse[i] % 2 == 0)  {
+                System.out.println(numberOfFloorsInTheHouse[i]);
+            }
 
         }
+
 
 
 
